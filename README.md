@@ -1,5 +1,4 @@
 # node-project
-<<<<<<< HEAD
 
 ## Description
 
@@ -37,6 +36,5 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-=======
+## Remarks
 node server for angular
->>>>>>> b3dd9287908b57965e00c1ef92ae3b528f55055c
