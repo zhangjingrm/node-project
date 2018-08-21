@@ -13,7 +13,6 @@ export class ProjectController {
 
   @Post()
   findAll(@Body() params: Project): Promise<Project[]> {
-    console.log(params, 888);
     return this.projectService.findMany(params);
   }
 
@@ -22,6 +21,19 @@ export class ProjectController {
     return this.projectService.findId(params);
   }
 
-
+  @Post('update')
+  update(@Body() params: Project): Promise<any> {
+    console.log(params, 888);
+    return this.projectService.update(params);
+  }
   
+  @Post('delete')
+  delete(@Body() params: Project): Promise<any> {
+    return this.projectService.delete(params);
+  }
+
+  @Post('insert')
+  insert(@Body() params: Project): Promise<any> {
+    return this.projectService.insert(params);
+  }
 }
