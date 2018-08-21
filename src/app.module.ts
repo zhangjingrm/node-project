@@ -17,7 +17,8 @@ import { Project } from 'domain/project/project.entrity';
       Project,
       "src/domain/**/**.entity{.ts,.js}",
     ],
-    "synchronize": true
+    "synchronize": true,
+    logging: true
   }), ProjectModule],
   controllers: [AppController],
   providers: [AppService],
