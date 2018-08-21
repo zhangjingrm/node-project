@@ -12,7 +12,7 @@ import { Project } from 'domain/project/project.entrity';
     "port": 3306,
     "username": "root",
     "password": "test1",
-    "database": "test",
+    "database": "sale",
     "entities": [
       Project,
       "src/domain/**/**.entity{.ts,.js}",
